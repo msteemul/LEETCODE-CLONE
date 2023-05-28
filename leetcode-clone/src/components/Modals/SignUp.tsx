@@ -17,7 +17,8 @@ const SignUp:React.FC<SignUpProps> = () => {
 
     };
     
-    return (<form className=' space-y-6 px-6 py-4'>
+    return (
+    <form className=' space-y-6 px-6 py-4'>
     <h3 className='text-xl font-medium text-white'>Register to leetclone</h3>
     <InputField label='Email' type='email' name='email' placeholder='Enter your email' />
     <InputField label='Name' type='Name' name='Name' placeholder='Enter your name' />
@@ -31,6 +32,7 @@ const SignUp:React.FC<SignUpProps> = () => {
 
     </div>
 
-</form>)
+</form>
+)
 }
 export default SignUp;
